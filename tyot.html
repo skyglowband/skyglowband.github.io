@@ -8,15 +8,35 @@
 				min-height: 100%;
 				font-family: 'Judson', cursive;
 
-		        background: #000000;
-		            background-position: center top;
-		            background-repeat: repeat-x;
-		        
-		        background-image: url(images/background.jpg);
-		            background-attachment:fixed;		        
+				background: #000000;
+					background-position: center top;
+					background-repeat: repeat-x;
+
+				background-image: url(images/background.jpg);
+					background-attachment:fixed;
+			}
+			.topnav {
+				background-color: #222;
+				overflow: hidden;
+			}
+			.topnav a {
+				float: left;
+				color: #f2f2f2;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+				font-size: 17px;
+			}
+			.topnav a:hover {
+				background-color: #ddd;
+				color: black;
+			}
+			.topnav a.active {
+				background-color: #601010;
+				color: white;
 			}
 			div.main {
-				max-width: 800px;
+				width: 800px;
 				margin: auto;
 				background-color: white;
 				min-height: 100%;
@@ -31,10 +51,28 @@
 			}
 			a { color: #A00000; }
 		</style>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body bgcolor="F0F0F0">
 		<div class="main">
 			<img src="images/top.jpg" alt="Skyglow" style="width: 100%">
+			<div class="topnav">
+				<div style="float:left;">
+					<a href="./">News</a>
+					<a href="./band">Band</a>
+					<a class="active" href="./releases">Releases</a>
+					<a href="./contact">Contact</a>
+				</div>
+				<div style="float:right;">
+					<a href="https://skyglow.bandcamp.com/"><i class="fa fa-bandcamp"></i></a>
+					<a href="https://www.facebook.com/skyglowband/"><i class="fa fa-facebook"></i></a>
+					<a href="https://vk.com/skyglowband"><i class="	fa fa-vk"></i></a>
+					<a href="https://www.youtube.com/channel/UCt1dDJSXKmiq4VMq1gzcwHA"><i class="fa fa-youtube"></i></a>
+					<a href="https://soundcloud.com/skyglow_band"><i class="fa fa-soundcloud"></i></a>
+					<a href="https://twitter.com/skyglowband"><i class="fa fa-twitter"></i></a>
+				</div>
+			</div>
 			<div class="block">
 				<center>
 					<h1>1. Sacred Self-Deceit</h1>
